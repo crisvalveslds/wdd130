@@ -20,6 +20,7 @@ body {
 
 header {
     background-color: var(--primary-color);
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +42,7 @@ nav ul {
 }
 
 nav a {
-    color: var(--accent2-color);
+    color: black;
     padding: 30px;
     text-decoration: none;
 }
@@ -87,7 +88,7 @@ h1 {
 .hero article {
     position: absolute;
     top: 400px;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: white;
     display: flex;
     justify-content: space-between;
