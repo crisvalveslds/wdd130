@@ -2,7 +2,7 @@
     --primary-color: #34A9A1; /* Teal */
     --secondary-color: #FBDC3B; /* Sun Yellow */
     --accent1-color: #4A7C59; /* Forest Green */
-    --accent2-color: #623F1F; /* Brown */
+    --accent2-color: #4B2E00; /* Brown */
     --heading-font: "Georgia", "Times New Roman", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +19,7 @@ header, main, footer {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: 
 }
 
 header {
@@ -27,6 +27,7 @@ header {
     grid-template-columns: 180px 1fr;
     align-items: center;
     background-color: var(--primary-color);
+    color: var(--accent2-color);
     padding-left: 0.5rem;
 }
 
@@ -34,10 +35,15 @@ header img {
     width: 150px;
     height: auto;
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 nav ul {
     list-style: none;
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
     background-color: var(--secondary-color);
     border: 1px solid var(--accent2-color);
     border-radius: 3px;
@@ -170,7 +176,7 @@ footer {
     align-items: center;
     text-align: center;
     background-color: var(--primary-color);
-    color: #fff;
+    color: #000000;
 }
 
 footer nav {
