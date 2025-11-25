@@ -19,7 +19,6 @@ header, main, footer {
 
 body {
     font-family: var(--body-font);
-    color: 
 }
 
 header {
@@ -27,7 +26,7 @@ header {
     grid-template-columns: 180px 1fr;
     align-items: center;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: #000;
     padding-left: 0.5rem;
 }
 
