@@ -219,6 +219,11 @@ footer nav {
     padding: 20px 40px;
 }
 
+
+.upper-employees{
+    border-radius: 4px;
+}
+
 .employees {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -240,7 +245,6 @@ footer nav {
 .gather-info {
     display: flex;
     grid-template-columns: 1fr 1fr;
-    
 }
 
 .gather-info section {
@@ -258,6 +262,10 @@ footer nav {
     flex-direction: column;
     gap: 1rem;
     padding-left: 2rem;
+}
+
+.map iframe {
+    border: 0;
 }
 
 .contact-info form div {
